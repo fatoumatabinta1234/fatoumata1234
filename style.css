@@ -1,0 +1,59 @@
+body{
+    font-family: Arial,sans-serif;
+    margin: 0%;
+    background-color: rgb(176, 79, 152);
+}
+header{
+    background-color: rgb(59, 35, 155);
+    color: aliceblue ;
+    padding: 5px;
+    
+    text-align: center;
+    position: sticky;
+}
+
+nav{
+    background-color: #2c2929;
+   display: flex;
+   margin: 20px;
+   border-radius: 5px;
+}
+.welcom img{
+    position: absolute;
+    left: 70%;
+    width: 220px;
+    top: 5%;
+    border-radius: 50%;
+    border-top-right-radius: 0;
+    background-color: blueviolet;
+  }
+nav a{
+    color:white;
+    margin: 10px;
+    text-decoration: none ;
+    font-weight: bold;
+}
+nav a:hover{
+color:#00ccff;
+}
+section{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+h2{
+    color: #003366;
+}
+.gallery img{
+    width: 150px;
+    margin: 10px;
+    border-radius: 5px;
+}
+footer{
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
